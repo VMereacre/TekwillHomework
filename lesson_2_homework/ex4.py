@@ -3,4 +3,4 @@
 a = 12
 b = 24
 rez = a - b
-print "Rezultatul adunarii este " res
+print(f"Rezultatul adunarii este {rez}")
