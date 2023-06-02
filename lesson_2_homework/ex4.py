@@ -2,5 +2,5 @@
 
 a = 12
 b = 24
-rez = a - b
+rez = a + b
 print(f"Rezultatul adunarii este {rez}")

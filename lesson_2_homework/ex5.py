@@ -8,9 +8,15 @@ CONST_MATEMATICA = 5
 current_nr = 1
 current_nr = current_nr * CONST_MATEMATICA
 print(current_nr)
+# Alternative version
+# print(CONST_MATEMATICA)
 current_nr = CONST_MATEMATICA + CONST_MATEMATICA + CONST_MATEMATICA
 print(current_nr)
+# Alternative version
+# print(str(current_nr),str(CONST_MATEMATICA))
 current_nr = current_nr + CONST_MATEMATICA
 print(current_nr)
+# Alternative version
+# print(CONST_MATEMATICA * CONST_MATEMATICA)
 current_nr = CONST_MATEMATICA * CONST_MATEMATICA
 print(current_nr)
