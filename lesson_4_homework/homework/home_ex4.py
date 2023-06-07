@@ -6,9 +6,9 @@ if len(sir_caractere) < 2:
     print("Sirul are mai putin de 2 caractere!")
 else:
     a = "a"
-    A = "A"
+    a1 = "A"
     caracter2 = sir_caractere[1]
-    if caracter2 == a or caracter2 == A:
+    if caracter2 == a or caracter2 == a1:
         print("In sirul de caractere pe a 2-a pozitie se afla litera \"a\"")
     else:
         print("In sirul de caractere pe a 2-a pozitie nu-i litera \"a\"")
