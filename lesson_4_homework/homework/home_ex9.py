@@ -6,8 +6,7 @@ cât și litere mici, afișați mesajul „Parolă puternică”.
 """
 print("Introduceti o parola formata din litere!")
 password = input('Parola : ')
-lungime = len(password)
-if not password.islower() and lungime >= 8:
+if not password.islower() and len(password) >= 8:
     print('Parolă puternică')
 else:
     print('Parolă slabă')
