@@ -17,3 +17,10 @@ if not prima_litera.isupper():
     print(f"Salut, {nume}!")
 else:
     print(f"Salut, {nume}!")
+
+# Alternative
+if not nume[0].isupper():
+    nume[0].isupper() + nume[1:]
+    print(f"Salut, {nume}!")
+else:
+    print(f"Salut, {nume}!")
