@@ -32,4 +32,4 @@ for mark in list_of_marks:
     marks_sum += mark
 
 print(f"Suma notelor: {marks_sum}")
-print(f"Media notelor: {marks_sum / mark}")
+print(f"Media notelor: {marks_sum / len(list_of_names)}")
