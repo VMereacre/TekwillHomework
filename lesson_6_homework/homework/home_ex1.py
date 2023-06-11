@@ -26,3 +26,18 @@ Pentru a calcula Indicele de Masă Corporală (BMI), urmează pașii de mai jos:
 4. Rezultatul obținut va fi indicele de masă corporală al persoanei.
 
 """
+print('Indica masa corporala in kilograme si inaltimea in metri :')
+masa = float(input('Greutatea : '))
+inaltime = float(input('Inaltime : '))
+
+imc = masa / inaltime ** 2
+print(f'IMC = {imc}')
+
+if imc < 18.5:
+    print('IMC-ul indica la greutate subponderala!')
+elif 18.5 >= imc <= 24.9:
+    print('IMC-ul indica la greutate normala!')
+elif 25 >= imc <= 29.9:
+    print('IMC-ul indica la greutate supraponderala!')
+else:
+    print('IMC-ul indica la obezitate!')
